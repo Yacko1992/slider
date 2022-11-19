@@ -1,0 +1,20 @@
+.slider {
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .container {
+    white-space: nowrap; /*Hace que el navegador no rompa la linea y los ponga uno al lado de otro*/
+    position: relative;     
+}
+
+.slider .container * {
+    white-space: normal;
+}
+
+.slider img {
+    width: 100%;
+    display: inline-block;
+    margin-right: -4px;
+}
